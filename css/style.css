@@ -69,7 +69,7 @@ h3 {
   display: inline-block;
   color: #d0ff00;
   background-color: #5a6063;
-  margin: 0;
+  margin: 0 0.3em 0 0;
   padding: 0.3em;
 }
 
@@ -119,8 +119,20 @@ h2 {
   text-align: center;
 }
 
-/* line 73, ../sass/style.sass */
+/* line 71, ../sass/style.sass */
 .screen-reader-text {
   position: absolute;
   text-indent: -9999px;
+}
+
+@media screen and (max-width: 360px) {
+  /* line 76, ../sass/style.sass */
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  /* line 78, ../sass/style.sass */
+  h2 {
+    font-size: 1.8rem;
+  }
 }

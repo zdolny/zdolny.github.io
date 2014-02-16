@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "open_sans_light";
+  src: url("../fonts/opensans-light.svg#open_sans_light") format("svg"), url("../fonts/opensans-light.woff") format("woff"), url("../fonts/opensans-light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sans_regular";
+  src: url("../fonts/opensans-regular.svg#open_sans_regular") format("svg"), url("../fonts/opensans-regular.woff") format("woff"), url("../fonts/opensans-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sans_light";
+  src: url("../fonts/opensans-bold.svg#open_sans_bold") format("svg"), url("../fonts/opensans-bold.woff") format("woff"), url("../fonts/opensans-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "icons";
+  src: url("../fonts/icons.svg?7520407#icons") format("svg"), url("../fonts/icons.woff?7520407") format("woff"), url("../fonts/icons.ttf?7520407") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 3, ../sass/style.sass */
+html {
+  font-size: 100%;
+}
+
+/* line 6, ../sass/style.sass */
+body {
+  margin: 0;
+  padding: 0;
+  font: 1em/1 "open_sans_light", sans-serif;
+  background-color: #eeeeee;
+}
+
+/* line 12, ../sass/style.sass */
+main {
+  text-align: center;
+}
+
+/* line 15, ../sass/style.sass */
+header {
+  padding: 1em 0;
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+/* line 21, ../sass/style.sass */
+h1 {
+  font-size: 3rem;
+}
+
+/* line 24, ../sass/style.sass */
+h2 {
+  font-size: 2rem;
+}
+
+/* line 27, ../sass/style.sass */
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  display: inline-block;
+  color: #d0ff00;
+  background-color: #5a6063;
+  margin: 0;
+  padding: 0.3em;
+}
+
+/* line 36, ../sass/style.sass */
+h1,
+h2 {
+  color: rgba(204, 204, 204, 0.8);
+  text-shadow: 2px 2px 3px #eeeeee, 0 0 0 black, 2px 2px 3px #eeeeee;
+  margin: 0.5rem auto;
+}
+
+/* line 42, ../sass/style.sass */
+.contact {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 46, ../sass/style.sass */
+.icon {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: #5a6063;
+  text-decoration: none;
+  padding: 0.3em;
+}
+/* line 52, ../sass/style.sass */
+.icon:hover {
+  color: #d0ff00;
+  background-color: #5a6063;
+}
+
+/* line 56, ../sass/style.sass */
+.contact a:first-of-type {
+  padding: 0.3em 0.4em 0.3em 0.2em;
+}
+
+/* line 59, ../sass/style.sass */
+[data-icon]:before {
+  font-family: icons;
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+}
+
+/* line 73, ../sass/style.sass */
+.screen-reader-text {
+  position: absolute;
+  text-indent: -9999px;
+}

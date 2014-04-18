@@ -1,80 +1,91 @@
 @import "base"
 
 html
-	font-size: 100%
+    font-size: 100%
 
 body
-	margin: 0
-	padding: 0
-	font: 1em/1 'open_sans_light', sans-serif
-	background-color: #eee
+    margin: 0
+    padding: 0
+    font: 1em/1 'open_sans_light', sans-serif
+    background-color: #eee
 
 main
-	text-align: center
+    text-align: center
 
 header
-	padding: 1em 0
-	text-align: center
-	font-size: 2rem
-	margin: 0 auto
+    padding: 1em 0
+    text-align: center
+    font-size: 2rem
+    margin: 0 auto
 
 h1
-	font-size: 3rem
+    font-size: 3rem
 
 h2
-	font-size: 2rem
+    font-size: 2rem
 
 h3
-	font-size: 1.5rem
-	font-weight: normal
-	display: inline-block
-	color: #d0ff00
-	background-color: #5a6063
-	margin: 0 .3em 0 0
-	padding: .3em
+    font-size: 1.5rem
+    font-weight: normal
+    display: inline-block
+    color: #d0ff00
+    background-color: #5a6063
+    margin: 0 .3em 0 0
+    padding: .3em
 
 h1,
 h2
-	color: rgba(204, 204, 204, 0.8)
-	text-shadow: 2px 2px 3px #eee, 0 0 0 #000, 2px 2px 3px #eee
-	margin: .5rem auto	
+    color: rgba(204, 204, 204, 0.8)
+    text-shadow: 2px 2px 3px #eee, 0 0 0 #000, 2px 2px 3px #eee
+    margin: .5rem auto  
 
 .contact
-	display: block
-	margin: 0 auto
+    display: block
+    margin: 0 auto
 
 .icon
-	font-size: 1.5rem
-	display: inline-block
-	color: #5a6063
-	text-decoration: none
-	padding: .3em
-	&:hover
-		color: #d0ff00
-		background-color: #5a6063
+    font-size: 1.5rem
+    display: inline-block
+    color: #5a6063
+    text-decoration: none
+    padding: .3em
+    &:hover
+        color: #d0ff00
+        background-color: #5a6063
 
 .contact a:first-of-type
-	padding: .3em .4em .3em .2em
+    padding: .3em .4em .3em .2em
 
-[data-icon]:before
-	font-family: icons
-	content: attr(data-icon)
-	font-style: normal
-	font-weight: normal
-	speak: none
+i
+    font-family: icons
+    font-style: normal
+    font-weight: normal
+    speak: none
 
-	display: inline-block
-	text-decoration: inherit
-	width: 1em
-	text-align: center
+    display: inline-block
+    text-decoration: inherit
+    width: 1em
+    text-align: center
+
+.icon-twitter:before
+    content: "\e801"
+
+.icon-github:before
+    content: "\e802"
+
+.icon-linkedin:before
+    content: "\e803"
+
+.icon-email:before
+    content: "\e804"
 
 .screen-reader-text
-	position: absolute
-	text-indent: -9999px
+    position: absolute
+    text-indent: -9999px
 
 @media screen and (max-width: 360px)
-	h1
-		font-size: 2.8rem
-	h2
-		font-size: 1.8rem
+    h1
+        font-size: 2.8rem
+    h2
+        font-size: 1.8rem
 

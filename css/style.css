@@ -107,9 +107,8 @@ h2 {
 }
 
 /* line 59, ../sass/style.sass */
-[data-icon]:before {
+i {
   font-family: icons;
-  content: attr(data-icon);
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -119,19 +118,39 @@ h2 {
   text-align: center;
 }
 
-/* line 71, ../sass/style.sass */
+/* line 70, ../sass/style.sass */
+.icon-twitter:before {
+  content: "\e801";
+}
+
+/* line 73, ../sass/style.sass */
+.icon-github:before {
+  content: "\e802";
+}
+
+/* line 76, ../sass/style.sass */
+.icon-linkedin:before {
+  content: "\e803";
+}
+
+/* line 79, ../sass/style.sass */
+.icon-email:before {
+  content: "\e804";
+}
+
+/* line 82, ../sass/style.sass */
 .screen-reader-text {
   position: absolute;
   text-indent: -9999px;
 }
 
 @media screen and (max-width: 360px) {
-  /* line 76, ../sass/style.sass */
+  /* line 87, ../sass/style.sass */
   h1 {
     font-size: 2.8rem;
   }
 
-  /* line 78, ../sass/style.sass */
+  /* line 89, ../sass/style.sass */
   h2 {
     font-size: 1.8rem;
   }

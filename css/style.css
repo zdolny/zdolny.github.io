@@ -1,147 +1,53 @@
-@font-face {
-  font-family: "open_sans_light";
-  src: url("../fonts/opensans-light.svg#open_sans_light") format("svg"), url("../fonts/opensans-light.woff") format("woff"), url("../fonts/opensans-light.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+/*
+Syntax error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 61 of /Users/michal/Documents/Projekty www/zdolny/sass/style.sass
 
-@font-face {
-  font-family: "open_sans_regular";
-  src: url("../fonts/opensans-regular.svg#open_sans_regular") format("svg"), url("../fonts/opensans-regular.woff") format("woff"), url("../fonts/opensans-regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "open_sans_light";
-  src: url("../fonts/opensans-bold.svg#open_sans_bold") format("svg"), url("../fonts/opensans-bold.woff") format("woff"), url("../fonts/opensans-bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "icons";
-  src: url("../fonts/icons.svg?7520407#icons") format("svg"), url("../fonts/icons.woff?7520407") format("woff"), url("../fonts/icons.ttf?7520407") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* line 3, ../sass/style.sass */
-html {
-  font-size: 100%;
-}
-
-/* line 6, ../sass/style.sass */
-body {
-  margin: 0;
-  padding: 0;
-  font: 1em/1 "open_sans_light", sans-serif;
-  background-color: #eeeeee;
-}
-
-/* line 12, ../sass/style.sass */
-main {
-  text-align: center;
-}
-
-/* line 15, ../sass/style.sass */
-header {
-  padding: 0.5em 0;
-  text-align: center;
-  font-size: 2rem;
-  margin: 0 auto;
-}
-
-/* line 21, ../sass/style.sass */
-h1 {
-  font-size: 3rem;
-}
-
-/* line 24, ../sass/style.sass */
-h2 {
-  font-size: 2rem;
-}
-
-/* line 27, ../sass/style.sass */
-h3 {
-  font-size: 1.5rem;
-  font-weight: normal;
-  display: inline-block;
-  color: #d0ff00;
-  background-color: #5a6063;
-  margin: 1em 0;
-  padding: 0.3em;
-}
-
-/* line 36, ../sass/style.sass */
-h1,
-h2 {
-  color: rgba(204, 204, 204, 0.8);
-  text-shadow: 2px 2px 3px #eeeeee, 0 0 0 black, 2px 2px 3px #eeeeee;
-  margin: 0.5rem auto;
-}
-
-/* line 42, ../sass/style.sass */
-.social,
-.contact-form {
-  display: block;
-  margin: 0 auto;
-}
-
-/* line 47, ../sass/style.sass */
-.icon {
-  font-size: 1.5rem;
-  display: inline-block;
-  color: #5a6063;
-  text-decoration: none;
-  padding: 0.3em;
-}
-/* line 53, ../sass/style.sass */
-.icon:hover {
-  color: #d0ff00;
-  background-color: #5a6063;
-}
-
-/* line 57, ../sass/style.sass */
-.social a:first-of-type {
-  padding: 0.3em 0.4em 0.3em 0.2em;
-}
-
-/* line 60, ../sass/style.sass */
-[data-icon]:before {
-  font-family: icons;
-  content: attr(data-icon);
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  text-align: center;
-}
-
-/* line 72, ../sass/style.sass */
-.screen-reader-text {
-  position: absolute;
-  text-indent: -9999px;
-}
-
-/* line 76, ../sass/style.sass */
-.typeform-widget {
-  width: 500px;
-  max-width: 100%;
-  height: 400px;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 360px) {
-  /* line 84, ../sass/style.sass */
-  h1 {
-    font-size: 2.8rem;
-  }
-
-  /* line 86, ../sass/style.sass */
-  h2 {
-    font-size: 1.8rem;
-  }
-}
+Backtrace:
+/Users/michal/Documents/Projekty www/zdolny/sass/style.sass:61
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:424:in `tabulate'
+org/jruby/RubyArray.java:1603:in `each'
+org/jruby/RubyEnumerable.java:952:in `each_with_index'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:382:in `tabulate'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:345:in `_to_tree'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+org/jruby/RubyMethod.java:133:in `call'
+org/jruby/RubyProc.java:268:in `call'
+org/jruby/RubyProc.java:228:in `call'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyArray.java:1603:in `each'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
+org/jruby/RubyKernel.java:1419:in `loop'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Scout.app/Contents/Resources/vendor/gems/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Scout.app/Contents/Resources/bin/compass:12:in `(root)'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 61 of /Users/michal/Documents/Projekty www/zdolny/sass/style.sass"; }

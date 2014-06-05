@@ -155,7 +155,7 @@ i {
 
 /* line 94, ../sass/style.sass */
 .typeform-widget.touchScreen {
-  height: 300px;
+  height: 200px;
 }
 
 @media screen and (max-width: 360px) {

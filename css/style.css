@@ -168,4 +168,9 @@ i {
   h2 {
     font-size: 1.8rem;
   }
+
+  /* line 103, ../sass/style.sass */
+  h3 {
+    margin: 1em 0 0;
+  }
 }

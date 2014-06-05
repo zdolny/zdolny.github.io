@@ -153,13 +153,18 @@ i {
   margin: 0 auto;
 }
 
+/* line 94, ../sass/style.sass */
+.typeform-widget.touchScreen {
+  height: 300px;
+}
+
 @media screen and (max-width: 360px) {
-  /* line 95, ../sass/style.sass */
+  /* line 99, ../sass/style.sass */
   h1 {
     font-size: 2.8rem;
   }
 
-  /* line 97, ../sass/style.sass */
+  /* line 101, ../sass/style.sass */
   h2 {
     font-size: 1.8rem;
   }

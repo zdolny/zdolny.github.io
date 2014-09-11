@@ -26,43 +26,43 @@
   font-style: normal;
 }
 
-/* line 3, ../sass/style.sass */
+/* line 3, ../sass/style.scss */
 html {
   font-size: 100%;
 }
 
-/* line 6, ../sass/style.sass */
+/* line 7, ../sass/style.scss */
 body {
   margin: 0;
   padding: 0;
   font: 1em/1 "open_sans_light", sans-serif;
-  background-color: #eeeeee;
+  background-color: #eee;
 }
 
-/* line 12, ../sass/style.sass */
+/* line 14, ../sass/style.scss */
 main {
   text-align: center;
 }
 
-/* line 15, ../sass/style.sass */
+/* line 18, ../sass/style.scss */
 header {
-  padding: 0.5em 0;
+  padding: .5em 0;
   text-align: center;
   font-size: 2rem;
   margin: 0 auto;
 }
 
-/* line 21, ../sass/style.sass */
+/* line 25, ../sass/style.scss */
 h1 {
   font-size: 3rem;
 }
 
-/* line 24, ../sass/style.sass */
+/* line 29, ../sass/style.scss */
 h2 {
   font-size: 2rem;
 }
 
-/* line 27, ../sass/style.sass */
+/* line 33, ../sass/style.scss */
 h3 {
   font-size: 1.5rem;
   font-weight: normal;
@@ -70,44 +70,44 @@ h3 {
   color: #d0ff00;
   background-color: #5a6063;
   margin: 1em 0;
-  padding: 0.3em;
+  padding: .3em;
 }
 
-/* line 36, ../sass/style.sass */
+/* line 44, ../sass/style.scss */
 h1,
 h2 {
   color: rgba(204, 204, 204, 0.8);
-  text-shadow: 2px 2px 3px #eeeeee, 0 0 0 black, 2px 2px 3px #eeeeee;
-  margin: 0.5rem auto;
+  text-shadow: 2px 2px 3px #eee, 0 0 0 #000, 2px 2px 3px #eee;
+  margin: .5rem auto;
 }
 
-/* line 42, ../sass/style.sass */
+/* line 51, ../sass/style.scss */
 .social,
 .contact-form {
   display: block;
   margin: 0 auto;
 }
 
-/* line 47, ../sass/style.sass */
+/* line 56, ../sass/style.scss */
 .icon {
   font-size: 1.5rem;
   display: inline-block;
   color: #5a6063;
   text-decoration: none;
-  padding: 0.3em;
+  padding: .3em;
 }
-/* line 53, ../sass/style.sass */
+/* line 62, ../sass/style.scss */
 .icon:hover {
   color: #d0ff00;
   background-color: #5a6063;
 }
 
-/* line 57, ../sass/style.sass */
+/* line 68, ../sass/style.scss */
 .social a:first-of-type {
-  padding: 0.3em 0.4em 0.3em 0.2em;
+  padding: .3em .4em .3em .2em;
 }
 
-/* line 60, ../sass/style.sass */
+/* line 72, ../sass/style.scss */
 i {
   font-family: icons;
   font-style: normal;
@@ -119,33 +119,33 @@ i {
   text-align: center;
 }
 
-/* line 71, ../sass/style.sass */
+/* line 84, ../sass/style.scss */
 .icon-twitter:before {
   content: "\e801";
 }
 
-/* line 74, ../sass/style.sass */
+/* line 88, ../sass/style.scss */
 .icon-github:before {
   content: "\e802";
 }
 
-/* line 77, ../sass/style.sass */
+/* line 92, ../sass/style.scss */
 .icon-linkedin:before {
   content: "\e803";
 }
 
-/* line 80, ../sass/style.sass */
+/* line 96, ../sass/style.scss */
 .icon-email:before {
   content: "\e804";
 }
 
-/* line 83, ../sass/style.sass */
+/* line 100, ../sass/style.scss */
 .screen-reader-text {
   position: absolute;
   text-indent: -9999px;
 }
 
-/* line 87, ../sass/style.sass */
+/* line 105, ../sass/style.scss */
 .typeform-widget {
   width: 500px;
   max-width: 100%;
@@ -153,23 +153,23 @@ i {
   margin: 0 auto;
 }
 
-/* line 94, ../sass/style.sass */
+/* line 113, ../sass/style.scss */
 .typeform-widget.touchScreen {
   height: 160px;
 }
 
 @media screen and (max-width: 360px) {
-  /* line 99, ../sass/style.sass */
+  /* line 119, ../sass/style.scss */
   h1 {
     font-size: 2.8rem;
   }
 
-  /* line 101, ../sass/style.sass */
+  /* line 122, ../sass/style.scss */
   h2 {
     font-size: 1.8rem;
   }
 
-  /* line 103, ../sass/style.sass */
+  /* line 125, ../sass/style.scss */
   h3 {
     margin: 1em 0 0;
   }

@@ -1,0 +1,50 @@
+@import "base";
+
+body {
+	font: 1em/1 'Open Sans', sans-serif;
+	background-color: #eee;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    text-align: center;
+    h1,
+    h2 {
+        color: rgba(204, 204, 204, .8);
+        text-shadow: 2px 2px 3px #eee, 0 0 0 #000, 2px 2px 3px #eee;
+        &::selection {
+            text-shadow: none;
+            color: #ccc;
+        }
+    }
+    h1 {
+        font-size: 4.4rem;
+    }
+    h2 {
+        font-size: 2.76rem;
+    }
+}
+
+.social {
+    margin: 2em 0 0;
+    a {
+    	display: inline-block;
+    	color: #5a6063;
+        margin: 0 .2em;
+    	padding: .5em .6em;
+    	&:hover {
+    		color: #d0ff00;
+    		background-color: #5a6063;
+    	}
+        .fa {
+            font-size: 3rem;
+        }
+    }
+}

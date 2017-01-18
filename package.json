@@ -1,0 +1,21 @@
+{
+  "name": "zdolny",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdolny/zdolny.github.io.git"
+  },
+  "author": "Michał Dolny"
+}

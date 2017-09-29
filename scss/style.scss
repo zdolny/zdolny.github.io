@@ -6,8 +6,11 @@ body {
 }
 
 .contact {
-    text-align: center;
-    padding-top: calc(44vh - 75px);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h1,
     h2 {
         color: rgba(204, 204, 204, .8);

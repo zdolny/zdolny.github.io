@@ -1,8 +1,7 @@
 var gulp = require('gulp'),
-    sass = require('gulp-sass'),
-    browserSync = require('browser-sync').create(),
-    autoprefixer = require('gulp-autoprefixer');
-
+  sass = require('gulp-sass'),
+  browserSync = require('browser-sync').create(),
+  autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('build', function() {
   return gulp.src('scss/**/*.scss')
@@ -13,14 +12,13 @@ gulp.task('build', function() {
 });
 
 gulp.task('watch', ['build'], function() {
-    browserSync.init({
-        server: './'
-    });
-    gulp.watch('scss/**/*.scss', ['build']);
-    gulp.watch('*.html', browserSync.reload);
+  browserSync.init({
+    server: './'
+  });
+  gulp.watch('scss/**/*.scss', ['build']);
+  gulp.watch('*.html', browserSync.reload);
 });
 
-
 gulp.task('default', function() {
-    gulp.start('build');
+  gulp.start('build');
 });

@@ -1,8 +1,8 @@
 @import "base";
 
 body {
-	font: 1em/1 'Open Sans', sans-serif;
-	background-color: #eee;
+    font: 1em/1 'Open Sans', sans-serif;
+    background-color: #eee;
 }
 
 .contact {
@@ -31,14 +31,14 @@ body {
 .social {
     margin: 2em 0 0;
     a {
-    	display: inline-block;
-    	color: #5a6063;
+        display: inline-block;
+        color: #5a6063;
         margin: 0 .2em;
-    	padding: .5em .6em;
-    	&:hover {
-    		color: #d0ff00;
-    		background-color: #5a6063;
-    	}
+        padding: .5em .6em;
+        &:hover {
+            color: #d0ff00;
+            background-color: #5a6063;
+        }
         .fa {
             font-size: 3rem;
         }
